@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c0fdb5828.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <title>JobEntry Demo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container nav-bar">
+            <div class="nav-logo">
+                <a href="#">
+                    <h2>JobEntry</h2>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#" id="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><button class="primary-btn nav-btn">Post A Job
+                                <i class="fa-solid fa-arrow-right nav-arrow"></i>
+                            </button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- End of Header -->
+
+    <!-- Hero Sectio Star -->
+
+    <section class="container bg-hero">
+        <div class="layer-hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Find The Perfect Job That You Deserved</h1>
+                    <p>
+                        Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam
+                        justo clita et kasd rebum sea elitr.
+                    </p>
+                    <div class="hero-btn">
+                        <button class="primary-btn">Search A Job</button>
+                        <button class="primary-btn" id="talent">Find A Talent</button>
+                    </div>
+                </div>
+                <div class="hero-arrow">
+                    <div class="hero-arrow-1">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="hero-arrow-1">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="hero-dash"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Hero Section -->
+
+    <!-- Search Section Start -->
+
+    <section class="container bg-search">
+        <div class="search-content">
+            <form action="">
+                <div class="search-form">
+                    <div class="search-type">
+                        <input type="text" name="Keyword" id="keyword" placeholder="Keyword">
+                    </div>
+                    <div class="search-type-2">
+                        <select name="category" id="category">
+                            <option value="category">Category</option>
+                            <option value="category">Category 1</option>
+                            <option value="category">Category 2</option>
+                            <option value="category">Category 3</option>
+                        </select>
+                    </div>
+                    <div class="search-type-2">
+                        <select name="location" id="location">
+                            <option id="location-2" value="location">Location</option>
+                            <option value="location">Location 1</option>
+                            <option value="location">Location 2</option>
+                            <option value="location">Location 3</option>
+                        </select>
+                    </div>
+                    <button class="primary-btn" id="search-btn">Search</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- End of Search Section -->
+
+    <!-- Categoty Section Start -->
+
+    <section class="container category-section">
+        <h2>Explore By Category</h2>
+        <div class="category-content">
+            <div class="category-card">
+                <div class="category-card-img">
+                    <i class="fa-solid fa-envelopes-bulk category-icon"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>123 Vacancy</p>
+            </div>
+            <div class="category-card">
+                <div class="category-card-img">
+                    <i class="fa-solid fa-envelopes-bulk category-icon"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>123 Vacancy</p>
+            </div>
+            <div class="category-card">
+                <div class="category-card-img">
+                    <i class="fa-solid fa-envelopes-bulk category-icon"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>123 Vacancy</p>
+            </div>
+            <div class="category-card">
+                <div class="category-card-img">
+                    <i class="fa-solid fa-envelopes-bulk category-icon"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>123 Vacancy</p>
+            </div>
+            <div class="category-card">
+                <div class="category-card-img">
+                    <i class="fa-solid fa-envelopes-bulk category-icon"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>123 Vacancy</p>
+            </div>
+            <div class="category-card">
+                <div class="category-card-img">
+                    <i class="fa-solid fa-envelopes-bulk category-icon"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>123 Vacancy</p>
+            </div>
+            <div class="category-card">
+                <div class="category-card-img">
+                    <i class="fa-solid fa-envelopes-bulk category-icon"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>123 Vacancy</p>
+            </div>
+            <div class="category-card">
+                <div class="category-card-img">
+                    <i class="fa-solid fa-envelopes-bulk category-icon"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>123 Vacancy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Category -->
+
+    <!-- About Section Start -->
+
+    <section class="container about-section">
+        <div class="about-content">
+            <div class="about-left">
+                <div class="about-left-img">
+                    <img src="./images/about-1.jpg" alt="">
+                </div>
+                <div class="about-left-img">
+                    <img id="about-img-2" src="./images/about-2.jpg" alt="">
+                </div>
+                <div class="about-left-img">
+                    <img id="about-img-3" src="./images/about-3.jpg" alt="">
+                </div>
+                <div class="about-left-img">
+                    <img src="./images/about-4.jpg" alt="">
+                </div>
+            </div>
+            <div class="about-right">
+                <h2>We help to get the best job and find a talent</h2>
+                <p>
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                </p>
+                <p>
+                    <i class="fa-solid fa-check about-icon"></i>
+                    Tempor erat elitr rebum at clita
+                </p>
+                <p>
+                    <i class="fa-solid fa-check about-icon"></i>
+                    Tempor erat elitr rebum at clita
+                </p>
+                <p>
+                    <i class="fa-solid fa-check about-icon"></i>
+                    Tempor erat elitr rebum at clita
+                </p>
+                <button class="primary-btn">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of About Section -->
+
+    <!-- Job Section Start -->
+
+    <section class="container job-section">
+        <h2>Job Listing</h2>
+        <div class="job-type">
+            <div class="job-type-1"><a href="#">Featured</a></div>
+            <div class="job-type-1"><a href="#">Full Time</a></div>
+            <div class="job-type-1"><a href="#">Part Time</a></div>
+            <div class="job-dash"></div>
+            <div class="job-dash-2"></div>
+        </div>
+
+        <div class="all-job">
+            <div class="single-job">
+                <div class="job-info-1">
+                    <div class="job-info-logo">
+                        <img src="./images/com-logo-1.jpg" alt="">
+                    </div>
+                    <div class="job-info-text">
+                        <div class="job-text-title">
+                            <h3>Software Engineer</h3>
+                        </div>
+                        <div class="job-text-detail">
+                            <div class="job-detail-location">
+                                <p>
+                                    <i class="fa-solid fa-location-dot job-icon"></i>
+                                    New York, USA
+                                </p>
+                            </div>
+                            <div class="job-detail-time">
+                                <p>
+                                    <i class="fa-regular fa-clock job-icon"></i>
+                                    Full Time
+                                </p>
+                            </div>
+                            <div class="job-detail-payment">
+                                <p>
+                                    <i class="fa-regular fa-money-bill-1 job-icon"></i>
+                                    $123-$456
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-info-2">
+                    <div class="job-apply">
+                        <div class="job-heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="job-apply-btn">
+                            <button class="primary-btn apply-btn">Apply Now</button>
+                        </div>
+                    </div>
+                    <div class="job-apply-time">
+                        <p>
+                            <i class="fa-regular fa-calendar-days calender-icon"></i>
+                            Date Line: 01 Jan, 2045
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job info 2 -->
+
+            <div class="single-job">
+                <div class="job-info-1">
+                    <div class="job-info-logo">
+                        <img src="./images/com-logo-2.jpg" alt="">
+                    </div>
+                    <div class="job-info-text">
+                        <div class="job-text-title">
+                            <h3>Software Engineer</h3>
+                        </div>
+                        <div class="job-text-detail">
+                            <div class="job-detail-location">
+                                <p>
+                                    <i class="fa-solid fa-location-dot job-icon"></i>
+                                    New York, USA
+                                </p>
+                            </div>
+                            <div class="job-detail-time">
+                                <p>
+                                    <i class="fa-regular fa-clock job-icon"></i>
+                                    Full Time
+                                </p>
+                            </div>
+                            <div class="job-detail-payment">
+                                <p>
+                                    <i class="fa-regular fa-money-bill-1 job-icon"></i>
+                                    $123-$456
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-info-2">
+                    <div class="job-apply">
+                        <div class="job-heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="job-apply-btn">
+                            <button class="primary-btn apply-btn">Apply Now</button>
+                        </div>
+                    </div>
+                    <div class="job-apply-time">
+                        <p>
+                            <i class="fa-regular fa-calendar-days calender-icon"></i>
+                            Date Line: 01 Jan, 2045
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job info 3 -->
+
+            <div class="single-job">
+                <div class="job-info-1">
+                    <div class="job-info-logo">
+                        <img src="./images/com-logo-3.jpg" alt="">
+                    </div>
+                    <div class="job-info-text">
+                        <div class="job-text-title">
+                            <h3>Software Engineer</h3>
+                        </div>
+                        <div class="job-text-detail">
+                            <div class="job-detail-location">
+                                <p>
+                                    <i class="fa-solid fa-location-dot job-icon"></i>
+                                    New York, USA
+                                </p>
+                            </div>
+                            <div class="job-detail-time">
+                                <p>
+                                    <i class="fa-regular fa-clock job-icon"></i>
+                                    Full Time
+                                </p>
+                            </div>
+                            <div class="job-detail-payment">
+                                <p>
+                                    <i class="fa-regular fa-money-bill-1 job-icon"></i>
+                                    $123-$456
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-info-2">
+                    <div class="job-apply">
+                        <div class="job-heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="job-apply-btn">
+                            <button class="primary-btn apply-btn">Apply Now</button>
+                        </div>
+                    </div>
+                    <div class="job-apply-time">
+                        <p>
+                            <i class="fa-regular fa-calendar-days calender-icon"></i>
+                            Date Line: 01 Jan, 2045
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job info 4 -->
+
+            <div class="single-job">
+                <div class="job-info-1">
+                    <div class="job-info-logo">
+                        <img src="./images/com-logo-4.jpg" alt="">
+                    </div>
+                    <div class="job-info-text">
+                        <div class="job-text-title">
+                            <h3>Software Engineer</h3>
+                        </div>
+                        <div class="job-text-detail">
+                            <div class="job-detail-location">
+                                <p>
+                                    <i class="fa-solid fa-location-dot job-icon"></i>
+                                    New York, USA
+                                </p>
+                            </div>
+                            <div class="job-detail-time">
+                                <p>
+                                    <i class="fa-regular fa-clock job-icon"></i>
+                                    Full Time
+                                </p>
+                            </div>
+                            <div class="job-detail-payment">
+                                <p>
+                                    <i class="fa-regular fa-money-bill-1 job-icon"></i>
+                                    $123-$456
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-info-2">
+                    <div class="job-apply">
+                        <div class="job-heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="job-apply-btn">
+                            <button class="primary-btn apply-btn">Apply Now</button>
+                        </div>
+                    </div>
+                    <div class="job-apply-time">
+                        <p>
+                            <i class="fa-regular fa-calendar-days calender-icon"></i>
+                            Date Line: 01 Jan, 2045
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job info 5 -->
+
+            <div class="single-job">
+                <div class="job-info-1">
+                    <div class="job-info-logo">
+                        <img src="./images/com-logo-5.jpg" alt="">
+                    </div>
+                    <div class="job-info-text">
+                        <div class="job-text-title">
+                            <h3>Software Engineer</h3>
+                        </div>
+                        <div class="job-text-detail">
+                            <div class="job-detail-location">
+                                <p>
+                                    <i class="fa-solid fa-location-dot job-icon"></i>
+                                    New York, USA
+                                </p>
+                            </div>
+                            <div class="job-detail-time">
+                                <p>
+                                    <i class="fa-regular fa-clock job-icon"></i>
+                                    Full Time
+                                </p>
+                            </div>
+                            <div class="job-detail-payment">
+                                <p>
+                                    <i class="fa-regular fa-money-bill-1 job-icon"></i>
+                                    $123-$456
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-info-2">
+                    <div class="job-apply">
+                        <div class="job-heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="job-apply-btn">
+                            <button class="primary-btn apply-btn">Apply Now</button>
+                        </div>
+                    </div>
+                    <div class="job-apply-time">
+                        <p>
+                            <i class="fa-regular fa-calendar-days calender-icon"></i>
+                            Date Line: 01 Jan, 2045
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="job-btn">
+            <button class="primary-btn">Browse More Jobs</button>
+        </div>
+    </section>
+
+    <!-- End of Job Section -->
+
+    <!-- Testimonial Section Start -->
+
+    <section class="container testimonial-section">
+        <h2>Our Clients Say!!!</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-card">
+                <p>
+                    <i class="fa-solid fa-quote-left testimonial-icon"></i>
+                </p>
+                <p id="card-p">
+                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                </p>
+                <div class="testimonial-client">
+                    <div class="client-img">
+                        <img src="./images/testimonial-1.jpg" alt="">
+                    </div>
+                    <div class="client-detail">
+                        <h3>Client Name</h3>
+                        <p>Profession</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card card-middle">
+                <p>
+                    <i class="fa-solid fa-quote-left testimonial-icon"></i>
+                </p>
+                <p id="card-p">
+                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                </p>
+                <div class="testimonial-client">
+                    <div class="client-img">
+                        <img src="./images/testimonial-2.jpg" alt="">
+                    </div>
+                    <div class="client-detail">
+                        <h3>Client Name</h3>
+                        <p>Profession</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p>
+                    <i class="fa-solid fa-quote-left testimonial-icon"></i>
+                </p>
+                <p id="card-p">
+                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                </p>
+                <div class="testimonial-client">
+                    <div class="client-img">
+                        <img src="./images/testimonial-3.jpg" alt="">
+                    </div>
+                    <div class="client-detail">
+                        <h3>Client Name</h3>
+                        <p>Profession</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-dots">
+            <div class="dot-1"></div>
+            <div class="dot-1 black-dash"></div>
+            <div class="dot-1"></div>
+            <div class="dot-1"></div>
+        </div>
+    </section>
+
+    <!-- End of Testimonial Section -->
+
+    <!-- Footer Start -->
+
+    <footer class="container bg-footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-content-1">
+                    <h3>Company</h3>
+                    <div class="footer-info">
+                        <ul>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    About Us
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    Contact Us
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    Our Services
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    Privacy Policy
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    Terms & Condition
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Content 02 -->
+                <div class="footer-content-1">
+                    <h3>Quick Links</h3>
+                    <div class="footer-info">
+                        <ul>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    About Us
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    Contact Us
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    Our Services
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    Privacy Policy
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-chevron-right" id="footer-icon"></i>
+                                    Terms & Condition
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <!-- Footer Content 03 -->
+                <div class="footer-content-1">
+                    <h3>Contact</h3>
+                    <div class="footer-info">
+                        <ul>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-location-dot" id="footer-icon"></i>
+                                    123 Street, New York, USA
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-phone" id="footer-icon"></i>
+                                    +012 345 67890
+                                </a></li>
+                            <li><a href="#">
+                                    <i class="fa-solid fa-envelope" id="footer-icon"></i>
+                                    info@example.com
+                                </a></li>
+                            <div class="footer-social">
+                                <div class="footer-social-icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Content 04 -->
+                <div class="footer-content-1">
+                    <h3>Newsletter</h3>
+                    <div class="footer-info">
+                        <p id="footer-p">
+                            Dolor amet sit justo amet elitr clita ipsum elitr est.
+                        </p>
+                        <div class="form">
+                            <form action="">
+                                <div class="form-content">
+                                    <div class="footer-email">
+                                        <input type="email" name="email" id="email" placeholder="Your email">
+                                    </div>
+                                    <div class="footer-signup">
+                                        <button class="primary-btn form-btn">SignUp</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="bottom-left">
+                <p>© <span id="site-name"><a href="#">Your Site Name</a></span>, All Right Reserved. Re-designed By <span id="author"><a href="#">Abdullah</a></span></p>
+            </div>
+            <div class="bottom-right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End of Footer -->
+</body>
+
+</html>
