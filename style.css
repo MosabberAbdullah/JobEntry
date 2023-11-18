@@ -445,6 +445,7 @@ body {
 
 .job-text-detail {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 20px;
 }

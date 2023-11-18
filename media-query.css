@@ -1,10 +1,17 @@
 @media only screen and (max-width: 900px) {
     .container {
         max-width: 860px;
+        margin: auto;
+        /* width: 100%; */
+
     }
 
     .hero-text h1 {
         font-size: 44px;
+        width: 90%;
+    }
+    .hero-text p {
+        width: 90%;
     }
 
     .category-card {
@@ -13,6 +20,10 @@
 
     .about-right h2 {
         font-size: 30px;
+    }
+
+    .job-dash {
+       left: 300px; 
     }
 
     .testimonial-card {
@@ -24,6 +35,8 @@
 @media only screen and (max-width: 768px) {
     .container {
         max-width: 860px;
+        margin: auto;
+        /* width: 100%; */
     }
 
     .nav-bar {
@@ -34,13 +47,13 @@
         display: none;
     }
 
-    /* .bg-hero {
+    .bg-hero {
         width: 100%;
         background-size: cover cover;
-    } */
+    }
 
     .hero-text h1 {
-        font-size: 28px;
+        font-size: 33px;
         width: 100%;
         line-height: 32px;
 
@@ -76,7 +89,28 @@
         height: 100%;
     }
 
+    .job-dash {
+        left: 250px;
+    }
 
+
+}
+
+@media only screen and (max-width: 630px) {
+    
+    .single-job {
+        align-items: flex-start;
+        row-gap: 15px;
+    }
+    .testimonial-content{
+       flex-direction: column;
+    }
+    .testimonial-card {
+        width: 90%;
+    }
+    .job-dash {
+        left: 185px;
+    }
 }
 
 
@@ -84,6 +118,7 @@
 
     .container {
         max-width: 400px;
+        margin: auto;
     }
 
     .hero-text h1 {
@@ -155,6 +190,10 @@
         flex-direction: column;
         row-gap: 25px;
         align-items: flex-start;
+    }
+
+    .job-dash {
+        left: 75px;
     }
 
     .testimonial-content {
